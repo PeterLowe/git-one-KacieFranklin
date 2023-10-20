@@ -1,0 +1,6 @@
+Init
+	Creates a new local repository in a chosen folder.
+
+	Git Bash adds a git. folder to the chosen folder.
+
+	This git bash folder is hidden but can be made visible through clicking “view” and selecting “hidden items”. 
