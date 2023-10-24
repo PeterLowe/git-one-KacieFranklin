@@ -6,18 +6,17 @@ Init
 	This git bash folder is hidden but can be made visible through clicking “view” and selecting “hidden items”. 
 
 Add 
-Kacie Franklin
 ➢ Adds new files to the directory. 
 ➢ Doesn’t include files ending with “.gitignore”. 
 ➢ Adds files to the next commit only. 
 ➢ If a file is changed before committing, it needs to be added again.
+
 Status 
 ➢ Gives a list of files that are modified in the working area.
 ➢ Gives a list of files that are added to the staged area.
 ➢ Gives a list of files that are in the current branch.
  
 Commit
-Kacie Franklin
 ➢ Creates a snapshot of the current repository.
 git commit –m “comment”
 ➢ Whenever a file is modified; a commit command needs to be done to 
@@ -25,27 +24,24 @@ have the latest version of the file saved to the repository.
 git commit –amend
 ➢ This allows for this commit to be joined to previous commits instead of it 
 being a separate one.
+
 Push 
 ➢ Updates the remote node with current node.
 git push –u origin master
 ➢ The local master is connected with the remote master.
 ➢ This command is only needed once.
-Kacie Franklin
  
 Branch 
 git branch new_branch_name 
 ➢ Makes a new branch in the chosen local repository. 
 git branch –a/-l/-r 
 ➢ Lists all branches in local repository
-Kacie Franklin
+
 Clone 
 ➢ Creates a copy of the code from the repository which can then be 
 worked on locally. Updates to the file can be sent to the repository when 
 completed or at least updated often. Updates can also be received from 
 others via the server. (GitHub)
- 
- 
- 
  
 Pull 
 git pull <remote> 
@@ -56,16 +52,13 @@ and placing the files into the local master.
 ➢ (I attempted to send files to my own repository, but it saved them to the 
 remote one instead of my own repository I had made and I don’t know 
 how to fix it)
-Kacie Franklin
+
 Merge
 git merge master
 ➢ Merges the head with the master branch.
 ➢ Will automatically update if they are separate.
 ➢ Will warn if there’s any issues with the merge and cancel the merge.
 ➢ Edit files, add and then commit.
- 
- 
- 
  
 Rm 
 ➢ Does the opposite 
@@ -75,5 +68,4 @@ command.
 from the directory.
 ➢ -- cached, removes files from the staging area only.
 ➢ -r, removes everything from the directory.
-Kacie Franklin
 ➢ -n, removes dry run list files only
